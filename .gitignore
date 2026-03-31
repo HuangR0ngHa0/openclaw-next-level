@@ -1,0 +1,7 @@
+# Local/private runtime state
+.openclaw/
+
+# Local real personal config files (keep templates in git instead)
+IDENTITY.md
+USER.md
+TOOLS.md
