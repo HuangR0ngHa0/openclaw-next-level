@@ -10,6 +10,7 @@ Produce targeted, honest resume variants instead of generic polishing.
 ## Required references
 
 - Read `skills/references/user-career-profile.md` before rewriting anything.
+- Read `skills/references/resume-master.md` as the default master resume source.
 - Use the target JD and, when available, the output from `jd-fit-analyzer`.
 - If multiple prior resume versions exist, prefer the closest relevant version instead of always starting from scratch.
 

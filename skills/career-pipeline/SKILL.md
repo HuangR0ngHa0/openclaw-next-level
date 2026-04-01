@@ -12,6 +12,8 @@ Coordinate the full job-search and application-preparation flow.
 Read or use these in the appropriate order:
 
 - `skills/references/user-career-profile.md`
+- `skills/references/resume-master.md`
+- `skills/references/first-drill-template.md` when running the first end-to-end validation
 - `skills/job-intelligence/SKILL.md`
 - `skills/jd-fit-analyzer/SKILL.md`
 - `skills/resume-tailor/SKILL.md`
