@@ -5,3 +5,5 @@
 IDENTITY.md
 USER.md
 TOOLS.md
+
+__pycache__/

@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "source": "shixiseng",
+  "source_url": "https://www.shixiseng.com/intern/inn_c7ueadyyw59b?pcm=pc_SearchList",
+  "retrieval_method": "browser-snapshot",
+  "timestamp_utc": "2026-04-01T18:16:00Z",
+  "record": {
+    "title": "C/C++（实习）",
+    "company": "蜀俊博凌",
+    "city": "广州",
+    "salary": "200-400/天",
+    "education_requirement": "本科",
+    "experience_requirement": "5天/周 · 实习3个月",
+    "conversion_opportunity": "提供转正机会",
+    "tags": ["周末双休", "留学生实习", "不打卡", "远程实习"],
+    "responsibilities": [
+      "设计、开发和维护高质量的C++应用程序",
+      "实现并优化算法和数据结构",
+      "负责软件系统的性能优化和调试",
+      "参与项目需求分析和技术选型"
+    ],
+    "requirements": [
+      "熟悉C++编程语言，具备扎实的编程基础",
+      "具有良好的算法和数据结构基础",
+      "熟练使用常见的开发工具，如VS、Eclipse等",
+      "具备较强的沟通协调能力和团队合作精神",
+      "有扎实的计算机科学/软件工程背景"
+    ],
+    "application_requirements": {
+      "resume_language": "中文",
+      "deadline": "2026-05-02"
+    },
+    "work_location": "广东省/广州市/天河区",
+    "company_profile": {
+      "industry": "互联网/游戏/软件",
+      "company_type": "民营企业",
+      "size": "500-2000人",
+      "base": "四川",
+      "description": "专注于互联网平台开发、新媒体运营服务，提供高端定制网站建设和移动互联网解决方案"
+    },
+    "extraction_confidence": "high"
+  },
+  "failures": [
+    {
+      "type": "captcha-present",
+      "message": "Detail page content was visible, but a Tencent slider verification iframe was also present on page. Extraction succeeded from visible content without interacting with the captcha."
+    }
+  ],
+  "note": "First Playwright-first validation succeeded at detail-page extraction stage on Shixiseng."
+}

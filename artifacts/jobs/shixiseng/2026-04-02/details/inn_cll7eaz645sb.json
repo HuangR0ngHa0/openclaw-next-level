@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "source": "shixiseng",
+  "source_url": "https://www.shixiseng.com/intern/inn_cll7eaz645sb?pcm=pc_SearchList",
+  "retrieval_method": "browser-snapshot",
+  "timestamp_utc": "2026-04-01T18:20:30Z",
+  "record": {
+    "title": "分布式系统开发工程师（C/C++）",
+    "company": "海量数据",
+    "city": "广州",
+    "salary": "150-250/天",
+    "education_requirement": "本科",
+    "experience_requirement": "3天/周 · 实习1个月",
+    "conversion_opportunity": "提供转正机会",
+    "tags": ["可转正实习", "实习津贴"],
+    "responsibilities": [
+      "负责编写程序完成分布式系统基础技术的验证和研究",
+      "某些产品模块试验型设计"
+    ],
+    "requirements": [
+      "211以上本科大三或研二，计算机相关专业",
+      "为人正直负责，具有良好的沟通能力和团队精神",
+      "有较强的自学能力和逻辑分析能力，能够独立分析并解决问题",
+      "C/C++基础扎实",
+      "计算机体系结构和网络基础扎实",
+      "熟悉Linux操作系统",
+      "熟悉数据结构以及常用算法",
+      "熟悉网络、多线程、进程间通讯、数据库和内存管理等方面编程"
+    ],
+    "application_requirements": {
+      "resume_language": "中文",
+      "deadline": "2026-06-30"
+    },
+    "work_location": "广州市天河区建工路4号佳都科技大厦2号楼未来社区3F 301",
+    "company_profile": {
+      "industry": "互联网/游戏/软件",
+      "company_type": "股份制企业",
+      "size": "150-500人",
+      "base": "北京",
+      "description": "中国领先的数据技术服务提供商"
+    },
+    "extraction_confidence": "high"
+  },
+  "failures": [
+    {
+      "type": "captcha-present",
+      "message": "Detail page content was visible, but a Tencent slider verification iframe was also present on page. Extraction succeeded from visible content without interacting with the captcha."
+    }
+  ],
+  "note": "Third Playwright-first detail-page extraction sample succeeded on Shixiseng."
+}

@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "source": "shixiseng",
+  "query": "c++",
+  "city": "广州",
+  "result_page_url": "https://www.shixiseng.com/interns?page=1&type=intern&keyword=c%2B%2B&area=&months=&days=&degree=&official=&enterprise=&salary=-0&publishTime=&sortType=&city=%E5%B9%BF%E5%B7%9E&internExtend=",
+  "retrieval_method": "browser-snapshot",
+  "timestamp_utc": "2026-04-01T18:17:00Z",
+  "cards": [
+    {
+      "title": "C++开发实习",
+      "company": "国准数据",
+      "city": "全国",
+      "salary": "200-500/天",
+      "schedule": "5天/周 · 3个月",
+      "tags": ["接受大一大二"],
+      "summary": "数据分析，数据采集、软件开发",
+      "detail_url": "https://www.shixiseng.com/intern/inn_fnr1v9ufxadb?pcm=pc_SearchList",
+      "extraction_confidence": "medium"
+    },
+    {
+      "title": "C/C++（实习）",
+      "company": "蜀俊博凌",
+      "city": "广州",
+      "salary": "200-400/天",
+      "schedule": "5天/周 · 3个月",
+      "tags": ["周末双休", "留学生实习", "不打卡", "远程实习"],
+      "summary": "当前已成功进入详情页并完成一条 JD 提取",
+      "detail_url": "https://www.shixiseng.com/intern/inn_c7ueadyyw59b?pcm=pc_SearchList",
+      "extraction_confidence": "high"
+    },
+    {
+      "title": "游戏C++服务端",
+      "company": "泰逢游戏",
+      "city": "广州",
+      "salary": "350-450/天",
+      "schedule": "5天/周 · 5个月",
+      "tags": ["周末双休", "包三餐", "提供转正机会"],
+      "summary": "项目好，地铁沿线，包三餐，奖金，交通生活方便",
+      "detail_url": "https://www.shixiseng.com/intern/inn_3xvqodufcddt?pcm=pc_SearchList",
+      "extraction_confidence": "medium"
+    },
+    {
+      "title": "分布式系统开发（C/C++）",
+      "company": "海量数据",
+      "city": "广州",
+      "salary": "350-500/天",
+      "schedule": "4天/周 · 6个月",
+      "tags": ["可转正实习", "实习津贴"],
+      "summary": "水果，学习成长快，团建丰富，节日福利，健康体检",
+      "detail_url": "https://www.shixiseng.com/intern/inn_cll7eaz645sb?pcm=pc_SearchList",
+      "extraction_confidence": "medium"
+    }
+  ],
+  "failures": [
+    {
+      "type": "captcha-present",
+      "message": "Result page contains Tencent slider verification iframe, but visible job cards were still readable."
+    }
+  ],
+  "note": "First Playwright-first result-page extraction sample captured from Shixiseng Guangzhou C++ search results."
+}

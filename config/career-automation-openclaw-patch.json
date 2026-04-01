@@ -1,0 +1,80 @@
+{
+  "$schema": "https://openclaw.local/workspace/career-automation-config-patch-v1",
+  "description": "Suggested OpenClaw config patch for Playwright-first career automation. This file is for targeted future optimization and is NOT auto-applied.",
+  "goals": [
+    "Keep browser-first extraction stable",
+    "Reduce context bloat during long job-search runs",
+    "Prefer deterministic single-thread execution for browser-heavy work",
+    "Preserve current Chromium CDP integration"
+  ],
+  "recommendedPatch": {
+    "browser": {
+      "enabled": true,
+      "defaultProfile": "user",
+      "executablePath": "/snap/bin/chromium",
+      "noSandbox": true,
+      "profiles": {
+        "user": {
+          "cdpUrl": "http://127.0.0.1:9222",
+          "color": "#00AA00"
+        }
+      }
+    },
+    "agents": {
+      "defaults": {
+        "maxConcurrent": 1,
+        "subagents": {
+          "maxConcurrent": 1
+        },
+        "compaction": {
+          "mode": "safeguard"
+        }
+      }
+    },
+    "commands": {
+      "nativeSkills": "auto"
+    },
+    "skills": {
+      "entries": {
+        "clawhub": {
+          "enabled": true
+        }
+      },
+      "install": {
+        "nodeManager": "npm"
+      }
+    },
+    "tools": {
+      "web": {
+        "search": {
+          "enabled": true,
+          "provider": "kimi"
+        },
+        "fetch": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "workflowNotes": {
+    "primarySkills": [
+      "miliger-playwright-scraper",
+      "playwright",
+      "career-pipeline",
+      "job-intelligence",
+      "jd-fit-analyzer",
+      "resume-tailor",
+      "interview-prep-builder"
+    ],
+    "deprecatedDefaultPath": [
+      "scripts/crawl4ai/* as the default front door"
+    ],
+    "artifactRoot": "artifacts/jobs"
+  },
+  "applyGuidance": [
+    "Do not auto-apply this patch blindly; compare with current config first.",
+    "Keep the existing browser.user.cdpUrl integration unchanged unless Chromium debugging port changes.",
+    "For browser-heavy job-search sessions, prefer lower concurrency over more parallelism.",
+    "Use this file as the reference when making future OpenClaw config adjustments for career automation."
+  ]
+}

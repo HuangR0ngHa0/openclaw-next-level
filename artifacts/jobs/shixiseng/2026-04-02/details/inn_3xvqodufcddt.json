@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "source": "shixiseng",
+  "source_url": "https://www.shixiseng.com/intern/inn_3xvqodufcddt?pcm=pc_SearchList",
+  "retrieval_method": "browser-snapshot",
+  "timestamp_utc": "2026-04-01T18:20:00Z",
+  "record": {
+    "title": "游戏C++服务端",
+    "company": "泰逢游戏",
+    "city": "广州",
+    "salary": "120-150/天",
+    "education_requirement": "本科",
+    "experience_requirement": "5天/周 · 实习6个月",
+    "conversion_opportunity": "提供转正机会",
+    "tags": ["周末双休", "包三餐", "饭后水果", "提供转正机会"],
+    "responsibilities": [
+      "负责游戏服务器的逻辑设计与实现",
+      "配合策划完成游戏服务端功能模块的开发",
+      "开发辅助工具"
+    ],
+    "requirements": [
+      "计算机、软件相关专业毕业，本科或以上学历",
+      "基本功扎实，熟悉C++/Lua，熟悉Linux和常用数据库，有完整游戏项目经验者优先",
+      "有很强的逻辑思维能力，解决技术难点的能力",
+      "工作严谨，认真，负责"
+    ],
+    "application_requirements": {
+      "resume_language": "中文",
+      "deadline": "2026-06-30"
+    },
+    "work_location": "广州天河区龙口东路129号龙泽商业大厦17楼",
+    "company_profile": {
+      "industry": "网络游戏",
+      "company_type": "民营企业",
+      "size": "150-500人",
+      "base": "广东/广州",
+      "description": "成长型游戏研发公司"
+    },
+    "extraction_confidence": "high"
+  },
+  "failures": [
+    {
+      "type": "captcha-present",
+      "message": "Detail page content was visible, but a Tencent slider verification iframe was also present on page. Extraction succeeded from visible content without interacting with the captcha."
+    }
+  ],
+  "note": "Second Playwright-first detail-page extraction sample succeeded on Shixiseng."
+}
