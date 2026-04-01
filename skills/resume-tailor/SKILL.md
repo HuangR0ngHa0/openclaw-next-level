@@ -7,6 +7,12 @@ description: Tailor the user's resume for a specific job based on the real JD an
 
 Produce targeted, honest resume variants instead of generic polishing.
 
+## Required references
+
+- Read `skills/references/user-career-profile.md` before rewriting anything.
+- Use the target JD and, when available, the output from `jd-fit-analyzer`.
+- If multiple prior resume versions exist, prefer the closest relevant version instead of always starting from scratch.
+
 ## Core workflow
 
 1. Read the source resume.
@@ -59,6 +65,7 @@ Return:
 3. revised skill ordering
 4. notable changes made
 5. unresolved gaps that resume wording cannot fix
+6. target metadata
 
 ## Tone
 

@@ -7,6 +7,12 @@ description: Discover, filter, and extract job opportunities for the user from r
 
 Build a reliable shortlist of roles instead of dumping search results.
 
+## Required references and adapters
+
+- Read `skills/references/user-career-profile.md` before filtering or ranking jobs.
+- Use `skills/boss-adapter/SKILL.md` when collecting data from BOSS直聘.
+- Add more source adapters over time, but keep business logic here and source-specific navigation in adapters.
+
 ## Core workflow
 
 1. Read the user's target city, role direction, experience level, and constraints.
@@ -57,6 +63,14 @@ Down-rank or reject:
 - roles far outside the user's target cities unless explicitly requested
 
 ## Output format
+
+Return these top-level sections:
+
+1. target summary
+2. kept roles
+3. rejected roles
+4. failure statistics
+5. recommended next actions
 
 For each kept role, return:
 

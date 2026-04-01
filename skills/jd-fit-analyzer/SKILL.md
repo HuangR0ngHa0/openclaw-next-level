@@ -7,6 +7,11 @@ description: Analyze a job description against the user's real background, proje
 
 Translate a JD into a concrete fit assessment for this user.
 
+## Required references
+
+- Read `skills/references/user-career-profile.md` before making conclusions.
+- If a tailored resume already exists for the role, use it as supporting context, not as a substitute for the user's ground truth.
+
 ## Core workflow
 
 1. Read the full JD content.
@@ -35,16 +40,17 @@ Use these buckets when possible:
 
 ## Output sections
 
-Return these sections:
+Return these sections in order:
 
-1. Overall verdict
-2. Strong matches
-3. Partial matches / adjacent evidence
-4. Clear gaps
-5. Packaging opportunities
-6. Risk notes
-7. Application recommendation
-8. Resume adjustment hints
+1. overall verdict
+2. strong matches
+3. partial matches / adjacent evidence
+4. clear gaps
+5. packaging opportunities
+6. risk notes
+7. application recommendation
+8. resume adjustment hints
+9. confidence note
 
 ## Packaging guidance for this user
 

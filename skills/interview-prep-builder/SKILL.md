@@ -7,6 +7,12 @@ description: Build interview preparation packs for a specific company and role u
 
 Turn a JD into a realistic prep pack.
 
+## Required references and adapters
+
+- Read `skills/references/user-career-profile.md` before building answer angles.
+- Use `skills/xiaohongshu-adapter/SKILL.md` when collecting interview experience or company discussion from Xiaohongshu.
+- Use company pages, technical community sources, and job pages as supporting evidence when available.
+
 ## Core workflow
 
 1. Read the target JD.
@@ -46,6 +52,7 @@ Return:
 6. suggested answer angles based on the user's background
 7. questions the user should ask the interviewer
 8. last-minute revision checklist
+9. confidence and source-quality note
 
 ## Focus areas for this user
 
