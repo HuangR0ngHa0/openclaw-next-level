@@ -10,14 +10,16 @@ Turn a JD into a realistic prep pack.
 ## Required references and adapters
 
 - Read `skills/references/user-career-profile.md` before building answer angles.
-- Use `skills/xiaohongshu-adapter/SKILL.md` when collecting interview experience or company discussion from Xiaohongshu.
+- Read `skills/references/crawl4ai-strategy.md` before selecting source flow.
+- Use `skills/crawl4ai-adapter/SKILL.md` as the default extraction layer for interview writeups, discussion pages, and company pages.
+- Use `skills/xiaohongshu-adapter/SKILL.md` only when site-specific Xiaohongshu rules are needed.
 - Use company pages, technical community sources, and job pages as supporting evidence when available.
 
 ## Core workflow
 
 1. Read the target JD.
 2. Read the user's tailored resume or profile.
-3. Search for interview experience, company discussion, and technical context.
+3. Use Crawl4AI to collect interview experience, company discussion, and technical context.
 4. Separate verified findings from weak signals.
 5. Build a preparation checklist tied to the user's real projects.
 

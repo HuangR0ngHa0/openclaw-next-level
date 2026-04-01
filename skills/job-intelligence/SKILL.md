@@ -10,14 +10,15 @@ Build a reliable shortlist of roles instead of dumping search results.
 ## Required references and adapters
 
 - Read `skills/references/user-career-profile.md` before filtering or ranking jobs.
-- Use `skills/boss-adapter/SKILL.md` when collecting data from BOSS直聘.
-- Add more source adapters over time, but keep business logic here and source-specific navigation in adapters.
+- Read `skills/references/crawl4ai-strategy.md` before deciding crawl flow.
+- Use `skills/crawl4ai-adapter/SKILL.md` as the default extraction layer for job result pages and JD pages.
+- Keep `skills/boss-adapter/SKILL.md` only as a degraded or source-specific fallback when needed.
 
 ## Core workflow
 
 1. Read the user's target city, role direction, experience level, and constraints.
-2. Search one or more job sources.
-3. Enter detail pages when possible; do not infer from titles alone.
+2. Prefer direct navigation to stable search-result pages or detail URLs.
+3. Use Crawl4AI to extract search-result cards and detail-page content.
 4. Extract the real JD text and key metadata.
 5. Filter out low-quality roles.
 6. Rank the remaining roles and summarize why they fit.
